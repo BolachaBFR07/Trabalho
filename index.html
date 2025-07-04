@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Página Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+
+    
+    <h1 class="nome">Luis Cesar</h1>
+
+    
+    <p class="bio">Olá! Meu nome é Luis Cesar, tenho 18 anos, moro em Mafra-Sc e sou apaixonado por tecnologia, música e esportes. Gosto de aprender coisas novas e estou sempre Buscando conhecimentos</p>
+    
+        
+        <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+
+       
+        <div id="mensagem" style="margin-top: 15px; font-weight: bold;"></div>
+
+        <script>
+            function mostrarMensagem() {
+                const mensagem = document.getElementById("mensagem");
+                mensagem.innerText = "Ser Botafogo é acreditar na força da nossa história";
+            }
+        </script>
+   
+    <ul class="hobbies">
+        <li>Jogar</li>
+        <li>Assistir o Botafogo</li>
+        <li>Programar</li>
+    </ul>
+
+    
+    <img src="img/Botafogo.webp" alt="Assistir o Botafogo" width="300">
+
+    
+    <h2>Países que gostaria de visitar</h2>
+    <table class="Paises" border="1" >
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Jamaica</td>
+            <td><img src="img/beach.jpg" width="200" alt="Japão"></td>
+        </tr>
+        <tr>
+            <td>Itália</td>
+            <td><img src="img/20302-Colosseum.webp" width="200" alt="Itália"></td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td><img src="img/canada.webp" width="200" alt="Canadá"></td>
+        </tr>
+    </table>
+
+    
+    <p class="site">Visite um dos meus sites favoritos: <a href="https://www.botafogo.com.br/" target="_blank">Botafogo</a></p>
+
+</body>
+</html>
